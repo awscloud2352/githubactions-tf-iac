@@ -1,0 +1,11 @@
+name: My First Workflow
+
+on:
+  push:
+
+jobs:
+  testJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Echo Cmd
+        run: echo "This is Github Actions Workflow Step!"
